@@ -1,0 +1,8 @@
+{
+    "input_path": "/root/autodl-tmp/wh/geo_hallucination_eval/assets/inputs/benchmark.json",
+    "output_path": "/root/autodl-tmp/wh/geo_hallucination_eval/assets/outputs",
+    "evaluator": [
+        {"name": "qwen-vl-max", "api_key": "sk-77a008132a894146bcc84c848cc5d8f2"}
+    ],
+    "discriminator": {"name": "qwen-plus", "api_key": "sk-77a008132a894146bcc84c848cc5d8f2"}
+}

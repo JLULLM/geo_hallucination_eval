@@ -1,0 +1,5 @@
+[
+    {"image_path": "/root/autodl-tmp/wh/geo_hallucination_eval/assets/MAVIS_Caption/Aynaltic_Geo/new_shapes/10462/10462_down4.jpg",
+    "question": "Does the center of the circle exist at (-4, 3)",
+    "ground_truth": "Yes"}
+]
