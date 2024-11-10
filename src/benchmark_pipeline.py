@@ -454,13 +454,13 @@ if __name__ == "__main__":
         select = "remove"
 
     # ["all", "Geo_Caption", "function", "Aynaltic_Geo", "remove"]
-    res_dict = get_mavis_data(mavis_path, select)[:50] 
+    res_dict = get_mavis_data(mavis_path, select)
     process_parallel_in_all_case(
         item_list=res_dict,
         curr_temp=curr_temp,
         use_img=use_img,
         mavis_root= mavis_root,
-        max_workers=10,
+        max_workers=100,
         process_one=process_one_caption,
         model_name=model,
     )
