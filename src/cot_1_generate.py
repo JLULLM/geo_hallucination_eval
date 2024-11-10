@@ -11,7 +11,7 @@ from template import get_cur_template
 import sys
 self_path = '/workspace/linjh'
 sys.path.append(self_path)
-from utils import nlp_tools as nlp
+import nlp_tools as nlp
 import os
 from to_html import get_meta_jsonl_data, show_gen_cot_data
 

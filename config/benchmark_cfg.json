@@ -1,0 +1,13 @@
+{
+    "input_path": "/root/autodl-tmp/wh/MAVIS_Caption/MAVIS_Caption.json",
+    "input_root": "/root/autodl-tmp/wh/MAVIS_Caption",
+    "output_file": "/root/autodl-tmp/wutr/geo_hallucination_eval/assets/output/test111.csv",
+    "generator": {
+        "model": "gpt-4o", 
+        "api_key": "xxx",
+        "base_url": "xxx",
+        "temperature": 0
+    },
+    "temp_choice": 4,
+    "?temp_choice": "1,2,3,4  1.通用 2.直角标记 3.不确定 4.针对remove"
+}

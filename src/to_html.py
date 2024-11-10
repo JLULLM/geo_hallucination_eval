@@ -7,7 +7,7 @@ from tarutils import get_orig_sample, get_image_file
 import sys
 self_path = '/workspace/linjh'
 sys.path.append(self_path)
-from utils import nlp_tools as nlp
+import nlp_tools as nlp
 from pathlib import Path as p
 import os
 

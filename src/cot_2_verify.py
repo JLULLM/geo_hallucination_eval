@@ -3,7 +3,7 @@ import pandas as pd
 import sys
 self_path = '/workspace/linjh'
 sys.path.append(self_path)
-from utils import nlp_tools as nlp
+import nlp_tools as nlp
 import re
 from pathlib import Path as p
 from chatapi_server import ChatAPI
